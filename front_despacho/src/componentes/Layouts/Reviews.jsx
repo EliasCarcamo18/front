@@ -1,3 +1,9 @@
+import React from "react";
+// Importamos los logos usando su ubicación real en assets
+import logoTransistor from "../../assets/images/logo1.png";
+import logoTuple from "../../assets/images/logo2.png";
+import logoSavvyCal from "../../assets/images/logo3.png";
+
 function Reviews() {
   return (
     <div className="bg-white sm:py-10">
@@ -8,7 +14,7 @@ function Reviews() {
         <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <img
             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 mx-auto"
-            src="/images/logo1.png"
+            src={logoTransistor}
             alt="Transistor"
             width="158"
             height="48"
@@ -16,14 +22,14 @@ function Reviews() {
 
           <img
             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 mx-auto"
-            src="/images/logo2.png"
+            src={logoTuple}
             alt="Tuple"
             width="158"
             height="48"
           />
           <img
             className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1 mx-auto"
-            src="/images/logo3.png"
+            src={logoSavvyCal}
             alt="SavvyCal"
             width="158"
             height="48"
